@@ -1,0 +1,99 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* LOGIN
+*******************************************************************************/
+#page-login                             {
+	text-align:left;
+	background-repeat: no-repeat;
+	background-image:url(../images/fuo_logo%20(2).jpg);
+	
+
+}
+.login-container                        {
+	width:500px;
+	margin-top: 130px;
+	margin-right: auto;
+	margin-left: auto;
+	height: 300px;
+	
+}
+.login-form                             {
+	background-color:#F90;
+	text-align:left;
+	padding-top: 35px;
+	padding-right: 25px;
+	padding-bottom: 25px;
+	padding-left: 30px;
+	font-family: "Tw Cen MT", sans-serif, "Myriad Pro";
+}
+.login-form .input-left                 { float:left; }
+.login-form .input-right                { float:right; }
+.login-form .input-box input.input-text {
+	width:134px;
+	border: 1px solid #BB983E;
+	font-family: "Tw Cen MT", sans-serif, "Myriad Pro";
+	font-size: 18px;
+	color: #000;
+	line-height: 21px;
+	height: 15px;
+	padding: 5px;
+}
+
+
+.login-form .input-box input.input-text1 {
+	width:120px;
+	border: 1px solid #BB983E;
+	font-family: "Tw Cen MT", sans-serif, "Myriad Pro";
+	font-size: 18px;
+	color: #000;
+	line-height: 21px;
+	height: 15px;
+	padding: 15px;
+}
+.login-form h2                          {
+	font-size:1.7em;
+	font-weight:normal;
+	text-align: center;
+}
+.login-form label                       
+{ font-weight:bold; }
+.login-form .form-buttons               {
+	margin:12px 0 0 0;
+	clear:both;
+	text-align:center !important;
+	padding: 5px;
+}
+.login-box .bottom                      {
+	width:300px;
+	height:2px;
+	overflow:hidden;
+}
+.login-container .legal                 {
+	margin:0;
+	
+	font-size:.70em;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	text-align:center;
+}
+.login-form .validation-advice          { margin:3px 0 0 0; }
+.login-form .forgot-link                { margin:0 17px 0 0; text-align:right; }
+
+.login-box {
+	width: 300px;
+	margin-right: auto;
+	margin-left: auto;
+	height: 330px;
+	border:3px solid #BB983E;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	-moz-box-shadow:0 0 10px #BB983E;
+	background-color:transparent;
+	
+	/*-webkit-box-shadow:0 0 10px #4e707c;
+	box-shadow:0 0 10px #4e707c;*/
+}

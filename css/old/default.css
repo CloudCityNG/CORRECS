@@ -1,0 +1,63 @@
+
+#container {
+	width: 950px;
+	height:auto;
+	margin:auto;
+	background-color:#FFF;
+	float:none;
+	
+	
+}
+#header{
+	width:950px; 
+	height:100px;
+	background-image:url(../car_background.gif);
+	float: middle;
+}
+#main {
+	width: 950px;
+	height: auto;
+	background-color:#0F0;
+	float:middle;
+}
+#content {
+	float: middle;
+	width: 950px;
+	}
+#sidebar {
+	width:100px;
+	height:auto;
+	background-color:#00F;
+	float:left;
+}
+
+#subpage_banner {
+	background:#FF6;
+	height:40px;
+	width:950px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 0px;
+	padding-left: 20px;
+	margin-bottom: 15px;
+	line-height: 25px;
+	font-family: "Segoe UI", tahoma, "tw Cen MT";
+	font-size: 11px;
+	text-align: left;
+	}
+	
+
+
+.subpage #content_main1 {
+	float: left;
+	width: 550px;
+	margin-top: 15px;
+	margin-bottom: 5px;
+	margin-right: 10px;
+	margin-left: 10px;
+	}
+	
+
+
+
+

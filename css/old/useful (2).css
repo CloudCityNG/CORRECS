@@ -1,0 +1,52 @@
+/* LOGIN
+*******************************************************************************/
+#page-login                             {
+	text-align:center;
+	background-color: #f8f8f8;
+
+}
+.login-container                        {
+	width:750px;
+	padding-left:32px;
+	margin-top: 170px;
+	margin-right: auto;
+	margin-bottom: 170px;
+	margin-left: auto;
+}
+.login-form                             {
+	background:url(../images/login_box_bg.jpg) no-repeat;
+	text-align:left;
+	padding-top: 15px;
+	padding-right: 25px;
+	padding-bottom: 20px;
+	padding-left: 30px;
+}
+.login-form .input-left                 { float:left; }
+.login-form .input-right                { float:right; }
+.login-form .input-box input.input-text {
+	width:224px;
+	border: 1px solid #FEA53F;
+	font-family: "Tw Cen MT", sans-serif, "Myriad Pro";
+	font-size: 14px;
+	color: #000;
+	line-height: 21px;
+	height: 15px;
+	padding: 5px;
+}
+.login-form h2                          { font-size:1.7em; font-weight:normal; }
+.login-form label                       { font-weight:bold; }
+.login-form .form-buttons               {
+	margin:12px 0 0 0;
+	clear:both;
+	text-align:left;
+}
+.login-box .bottom                      {
+	width:400px;
+	height:5px;
+	background:url(../images/login_box_bottom.jpg) no-repeat;
+	overflow:hidden;
+}
+.login-container .legal                 { margin:0; background:url(../images/login_box_legal_bg.gif) no-repeat; padding:8px 8px 5px 8px; font-size:.95em; }
+.login-form .validation-advice          { margin:3px 0 0 0; }
+.login-form .forgot-link                { margin:0 17px 0 0; text-align:right; }
+

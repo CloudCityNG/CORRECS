@@ -1,0 +1,49 @@
+table {border-collapse:separate;border-spacing:0;}
+table, th, td {vertical-align:middle;}
+table {width:100%;}
+th {font-weight:bold;}
+thead th {background:#c3d9ff;}
+th, td, caption {
+	padding-top:2px;
+	vertical-align:middle;
+	padding-right: 4px;
+	padding-left: 4px;
+}
+th{line-height:22px;}
+tbody tr:nth-child(even) td, tbody tr.even td {background:#eee;}
+tfoot {font-style:italic;}
+#nostyle tr:nth-child(even) td, tbody tr.even td {background:#FFF;}
+ul#nav-v,ul#nav-v li,ul#nav-v ul {
+ width: 160px; /* Menu Width */
+ margin: 0;
+ list-style: none;
+}
+
+ul#nav-v li { float: left; position: relative;  width: 100%; }
+ul#nav-v li.iehover { z-index: 1000; /* IE z-index bugfix */ }
+
+ul#nav-v ul {
+ display: none;
+ position: absolute;
+ top: 0;
+ left: 100%;
+ z-index: 9999;
+}
+
+/* Root Menu */
+ul#nav-v a {
+ border-top: 1px solid #FFF;
+ border-right: 1px solid #FFF;
+ padding: 6px;
+ display: block;
+ color: #666;
+ font: bold 12px Arial, sans-serif;
+ text-decoration: none;
+ height: 1%;
+}
+
+/* Root Menu Hover Persistence */
+ul#nav-v a:hover,ul#nav-v li:hover a,ul#nav-v li.iehover a {
+ background: #BBB;
+ color: #FFF;
+}

@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	color: #000;
+	/* background-color: #00ffff; */
+}
+
+/* input.invalid {
+	 background-color: #8080c0; 
+	border: 2px #ffff00 inset;
+} */
+
+/*label.invalid {
+	color: #ff0000;
+	font-weight: bold;
+}*/
+
+/*select {
+	margin-left: 80px;
+}*/
+
+/*input {
+	margin-left: 30px;
+}*/
+
+/*input+select, input+input {
+	margin-left: 20px;
+}*/
+
+.divTable
+    {
+        display:  table;
+        width:auto;
+        border-spacing:4px;/*cellspacing:poor IE support for  this*/
+        border-collapse:separate;
+    }
+
+ 	.divRow
+    {
+       display:table-row;
+       width:500px;
+	   height:30px;
+
+    }
+
+    .divCell
+    {
+        float:left;/*fix for  buggy browsers*/
+        display:table-column;
+        width:150px;
+        background-color:;
+
+    }
+	
+.divrow
+    {
+       display:table-row;
+       width:500px;
+	   height:30px;
+
+    }
+
+    .divcell
+    {
+        float:left;/*fix for  buggy browsers*/
+        display:table-column;
+        width:150px;
+		font-size:12px;
+
+    }

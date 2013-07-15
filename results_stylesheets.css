@@ -1,0 +1,41 @@
+.divTable
+    {
+        display:  table;
+        width:1500px;
+        border-spacing:4px;/*cellspacing:poor IE support for  this*/
+        border-collapse:separate;
+    }
+
+ 	/* .divRow
+    {
+       display:table-row;
+       width:500px;
+	   height:30px;
+
+    }
+
+    .divCell
+    {
+        float:left;fix for  buggy browsers
+        display:table-column;
+        width:150px;
+        background-color:;
+
+    } */
+	
+.divrow
+    {
+       display:table-row;
+       width:700px;
+	   height:50px;
+
+    }
+
+    .divcell
+    {
+        float:left;/*fix for  buggy browsers*/
+        display:table-column;
+        width:180px;
+		font-size:14px;
+
+    }

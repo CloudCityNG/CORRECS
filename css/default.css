@@ -1,0 +1,170 @@
+
+#container {
+	width: 968px;
+	height:auto;
+	margin:auto;
+	float:center;
+	background-repeat:no-repeat;
+	font:Georgia, "Times New Roman", Times, serif;
+}
+#container_login {
+	width: 968px;
+	height:400px;
+	margin:auto;
+	float:center;
+	background-repeat:no-repeat;
+	font:Georgia, "Times New Roman", Times, serif;
+	padding-top:25px;
+}
+
+#header{
+	width:968px; 
+	height:100px;
+	background-image:url(../Pictures/fuo_new.gif);
+	float: middle;
+}
+
+
+#main {
+	width: 950px;
+	height: 650px;
+	border:thin;
+	float:left;
+	background-image:url(../images/site_bg_modified.gif);
+}
+#content {
+	float: middle;
+	width: 650px;
+	height:auto;
+	font-size:14px;
+	}
+
+
+#logo {
+    float:left;
+    top:190px;
+    padding: 40px 0 0 15px;
+   
+}
+
+#logo h1 {
+    margin: 0px;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 31px;
+    font-weight:lighter;
+}
+
+#logo h2 {
+    margin: 0px 0 0 0;
+    padding: 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 10px;
+    font-weight:lighter;
+  
+    font-family: 'Franklin Gothic Medium';
+}
+
+#logo a {
+    text-decoration: none;
+    color:#F00;
+}
+
+/* Menu */
+
+#menu {
+   height:100px;
+   widtth: 150px;
+   display: block;
+   text-align: left;
+    text-transform: uppercase;
+    font-size: 12px;
+    color:#00F;
+    padding:0px 0 0 0;
+    font-weight: bold;
+    font-family:Georgia, "Times New Roman", Times, serif;
+}
+
+#menu ul {
+    list-style: none;
+    line-height: normal;
+}
+
+#menu li {
+    color: black;
+}
+
+#menu a {
+    display:compact;
+   text-align: left;
+   height:30px;
+    text-transform: uppercase;
+    font-size: 12px;
+    color:#00F;
+    font-weight: bold;
+    font-family:Verdana, Geneva, sans-serif;
+}
+
+#menu a:hover, #menu .active a {
+  
+    color:#03C;
+    font-weight:bold;
+}
+
+#list {
+     position:relative;top:22px;
+     height:200px;
+     border-bottom-width: 1px;
+    border-bottom-style: solid;
+     border-top-width: 1px;
+    border-top-style:groove;
+
+   ;
+}
+/*
+#list ul {
+    margin: 0;
+    padding: 65px 0 0 0;
+    list-style:circle;
+    line-height: normal;
+}
+*/
+#list li {
+    display:block;
+  margin:1 auto;
+    color:#F03;
+}
+
+#list a {
+    display:table;
+    float:left;
+    width: 200px;
+    height: 15px;
+   position:relative;top:25px;
+    text-align: center;
+    text-transform: uppercase;
+	text-decoration:none;
+	border-bottom-color:#066;
+	list-style:hiragana-iroha;
+    font-size: 12px;
+ 
+    color:#F03;
+    font-weight: bold;
+    font-family:Georgia, "Times New Roman", Times, serif;
+}
+
+#list a:hover, #menu .active a {
+  
+    color:#F00;
+    font-weight:bold;
+}
+
+#table{
+	font-style:normal;
+	color:#F00;
+	font-weight:200;
+	font-size:18px;
+	border:thick;
+	padding-top:20px;
+}
